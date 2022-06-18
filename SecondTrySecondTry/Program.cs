@@ -40,8 +40,8 @@ namespace SecondTrySecondTry
             client.MessageReceived += CommandsHandler;
             client.Log += Log;
 
-           // var token = "OTg3NjEwODM0MzQ5OTk0MDA0.GtcIKj.HYMvchF3xRYdWnqKZ77a1i6Fh3y_unbFks46tQ";
-            var token = "OTg3NzU4OTExOTEyMzA4NzU3.Gh1MLK.ITdchOZjZ3SqcjRVA51OGyPlVabHwmxNxNY86U";
+           //get your own token
+            var token = "some token";
 
             await client.LoginAsync(TokenType.Bot, token);
             await client.StartAsync();
