@@ -27,6 +27,7 @@ Quiz is ON
 It will toggle p language tool on and off.
 Rules of english version of P language is simple.
 - all words or part of words which sounds like number are transformed to real numbers and then incermented by:
+
 __mate lets play tennis__ will converted to __m9 lets play 11nis__
 
 > !suggestions switch
